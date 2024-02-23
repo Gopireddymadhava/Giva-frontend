@@ -1,0 +1,85 @@
+.addToCartBttn{
+    background-color:transparent;
+    border:2px solid rgb(19,19,19);
+    min-width:80px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 15px;
+}
+.addToCartBttn:hover{
+    background-color: rgb(10, 10, 10);
+    color:white;
+    cursor:pointer;
+}
+.products1{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px;
+    place-items: center;
+    
+}
+
+.product1{
+    border-radius:15px;
+    width:200px;
+    height:350px;
+    margin:20px;
+    display:flex; 
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.product1.description1{
+    text-align: center;
+}
+.product1:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.shopTitle1{
+    
+    text-align:center;
+    font-size: 40px;
+}
+.product1 img{
+    width:195px;
+    height:160px;
+}
+.wishlist {
+    border: none;
+    background-color: transparent;
+    position: absolute!important;
+    right: 5px;
+    top: 8px;
+    z-index: 3;
+    
+  }
+  .heart{
+    margin-left: 120px;
+    border-color: pink;
+    
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    
+  }
+  
+  .wishlist:hover {
+    cursor: pointer;
+  }
+  
+  .wishlist:focus {
+    outline: none;
+  }
+  
+  .wishlist svg {
+    fill: lightpink;
+  }
+  
+  .wishlist svg:hover {
+    fill: darkred; 
+  }
